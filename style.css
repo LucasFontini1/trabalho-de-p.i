@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 /*=============================
 RESET
 =============================*/
@@ -65,10 +66,18 @@ ul{
     padding: 1vw 0 1vw 0;
 }
 .topo:hover{
-    background-color: #0093c4;
+    background-color: #910033;
     margin-top: 0;
     transition: 1s;
 }
+.topo:hover ul li{
+    color: white;
+    transition: 1.0s;
+}
+.topo:hover div.logomaistitulo{
+    color: white;
+    transition: 1s;
+} 
 .logomaistitulo{
     display: flex;
     margin-left: 4vw;
@@ -87,11 +96,12 @@ ul{
     font-size: 12px;
 }
 .naventrepaginas ul li:hover{
-    background-color: #27c9ff;
+    background-color: #5e0021;
     padding: 10px;
     transition: 1.5s;
     border-radius: 55px;
 }
+
 header h1{
     text-align: center;
     font-family: "comfortaa";
@@ -117,8 +127,17 @@ header h1{
     text-align: center;
     font-size: 2.3rem;
 }
-.paginicial p{
+.paginicial p.impacto{
     font-size: 1.15rem;
     text-align: center;
     margin: 2vw 20vw 5vw 20vw;
+}
+.linhaDeSeparacao{
+    border: solid 100px color rgb(211, 211, 211);
+}
+.tituloDoConteudo{
+    margin-left: 20vw;
+    font-size: 2rem;
+    font-family: "oswald";
+    margin-top: 7vw;
 }
