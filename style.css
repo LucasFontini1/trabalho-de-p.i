@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 /*=============================
 RESET
 =============================*/
@@ -122,13 +123,16 @@ header h1{
 .paginicial{
     font-family: "roboto";
 }
+.topodeexerciciosfisicos{
+    
+}
 .conteudoabordado{
     font-family: "comfortaa";
     text-align: center;
     font-size: 2.3rem;
 }
 .paginicial p.impacto{
-    font-size: 1.15rem;
+    font-size: 1.3rem;
     text-align: center;
     margin: 2vw 20vw 5vw 20vw;
 }
@@ -136,8 +140,17 @@ header h1{
     border: solid 100px color rgb(211, 211, 211);
 }
 .tituloDoConteudo{
+    color: #5e0021;
     margin-left: 20vw;
     font-size: 2rem;
-    font-family: "oswald";
-    margin-top: 7vw;
+    font-family: "comfortaa";
+    margin: 4vw 10vw 0 10vw;
+}
+.espacoEntreConteudos{
+    margin: 6vw 0 6vw 0;
+}
+.conteudoGeral{
+    margin: 1vw 10vw 0 10vw;
+    font-family: "lato";
+    font-size: 1.05rem;
 }
