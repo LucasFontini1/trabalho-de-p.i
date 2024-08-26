@@ -59,12 +59,18 @@ FIM RESET
 
 ul{
     list-style: none;
+    text-decoration: none;
+
 }
 
 .topo{
     display: flex;
     background: fixed;
     padding: 1vw 0 1vw 0;
+    
+}
+.topo ul a li{
+    color: black;
 }
 .topo:hover{
     background-color: #910033;
@@ -78,7 +84,8 @@ ul{
 .topo:hover div.logomaistitulo{
     color: white;
     transition: 1s;
-} 
+}
+
 .logomaistitulo{
     display: flex;
     margin-left: 4vw;
@@ -157,3 +164,20 @@ header h1{
 /*===========================================================
  Rodapé Pag inicial
 ===========================================================*/
+
+
+
+
+
+/*===========================================================
+ Main Pagina de projetos
+===========================================================*/
+main.mainProjetos{
+    margin: 0 10vw 0 10vw;
+}
+.subtitoloDaPagProjetos{
+    font-family: "comfortaa";
+    text-align: center;
+    font-size: 2.3rem;
+    margin: 4vw 0 0 0;
+}
