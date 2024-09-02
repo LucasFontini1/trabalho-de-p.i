@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
 /*=============================
 RESET
 =============================*/
@@ -60,9 +61,10 @@ FIM RESET
 ul{
     list-style: none;
     text-decoration: none;
-
 }
-
+a{
+    text-decoration: none;
+}
 .topo{
     display: flex;
     background: fixed;
@@ -159,7 +161,7 @@ header h1{
 .conteudoGeral{
     margin: 1vw 10vw 0 10vw;
     font-family: "lato";
-    font-size: 1.05rem;
+    font-size: 1.12rem;
 }
 /*===========================================================
  Rodapé Pag inicial
@@ -180,4 +182,47 @@ main.mainProjetos{
     text-align: center;
     font-size: 2.3rem;
     margin: 4vw 0 0 0;
+}
+.PASFM{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 1vw;
+    font-weight: bold;
+}
+.obj-projeto{
+    text-align: center;
+    margin: 1vw 0 0 0;
+    font-size: 1.3rem;
+}
+.tittle-corpo{
+    background-color: #c9f2ff;
+    border: solid 1px black;
+    margin: 5vw 15vw 0 15vw;
+   
+    border-radius: 200px;
+}
+.topo-projeto-um{
+    display: flex;
+    justify-content: center;
+}
+.topo-projeto-um h2 {
+    margin: 7.8vw 2vw 0 0 ;
+    font-size: 5rem;
+    font-family: "montserrat";
+}
+.img-projetos {
+    border: solid black 3px;
+    margin: 5vw 0 0 0vw;
+}
+.corpo-projeto-um{
+    margin: 5vw 4vw 5vw 4vw;
+    
+    font-size: 2rem;
+    font-family: "montserrat";
+}
+.corpo-projeto-um span{
+    font-weight: bold;
+}
+.fonte-img{
+    margin: 3px 11vw 0 20vw;
 }
