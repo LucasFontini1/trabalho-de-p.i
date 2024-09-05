@@ -158,14 +158,36 @@ header h1{
     font-size: 2rem;
     font-family: "comfortaa";
     margin: 4vw 10vw 0 10vw;
+    text-align: center;
 }
+.img-tittle{
+    text-align: center;
+}
+.fnt-img{
+    text-align: center;
+    
+}
+
 .espacoEntreConteudos{
     margin: 6vw 0 6vw 0;
 }
 .conteudoGeral{
     margin: 1vw 10vw 0 10vw;
     font-family: "lato";
-    font-size: 1.12rem;
+    font-size: 1.22rem;
+}
+.meca-imc{
+    text-align: center;
+    background-color: #b9edff;
+    padding: 1vw 1vw 1vw 1vw; 
+    margin: 1vw 40vw 1vw 40vw;
+    border-radius: 200px;
+}
+.divAltura {
+    margin: 20px 0 5px 0;
+}
+.divPeso{
+    margin: 5px 0 20px 0;
 }
 /*===========================================================
  Rodapé Pag inicial
