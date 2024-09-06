@@ -178,16 +178,38 @@ header h1{
 }
 .meca-imc{
     text-align: center;
-    background-color: #b9edff;
-    padding: 1vw 1vw 1vw 1vw; 
-    margin: 1vw 40vw 1vw 40vw;
-    border-radius: 200px;
+   font-family: "comfortaa";
+     
+    margin: 6vw 40vw 1vw 40vw;
+   align-items: center;
 }
 .divAltura {
     margin: 20px 0 5px 0;
 }
 .divPeso{
     margin: 5px 0 20px 0;
+
+}
+input{
+    
+    font-family: "comfortaa";
+    border: solid 1px black;
+    border-radius: 20px;
+    background-color: #b8eafa;
+    margin: 5px 0 5px 0;
+    padding: 5px;
+}
+input:hover{
+    background-color: #84e0ff;
+}
+#resultado{
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+    
+}
+img{
+    border: solid 2px black;
 }
 /*===========================================================
  Rodapé Pag inicial

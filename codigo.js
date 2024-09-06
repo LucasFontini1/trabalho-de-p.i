@@ -4,7 +4,7 @@ function vcJaEstaAqui(){
 }
 
 //CALCULADORA IMC
-const resultado = document.querySelector('#resultado')
+/*const resultado = document.querySelector('#resultado')
 const altura = document.querySelector('#altura')
 const peso = document.querySelector('#peso')
 
@@ -29,9 +29,10 @@ const calcIMC = () => {
     }
     
     resultado.innerHTML = `IMC: ${imc} (${classification})`
+    
   } else {
     resultado.innerHTML = 'Preencha os campos'
   }
-}
+}*/
 
 //END CALCULADORA IMC
