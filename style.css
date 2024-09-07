@@ -211,10 +211,44 @@ input:hover{
 img{
     border: solid 2px black;
 }
+.divCalc button{
+    border: black 1px solid;
+    background-color: #5e0021;
+    font-size: 1.2rem;
+    padding: 10px 20px 10px 20px;
+    border-radius: 200px;
+    cursor: pointer;
+    color: white;
+    font-family: "comfortaa";
+}
+.divCalc button:hover{
+    background-color: #910033;
+}
 /*===========================================================
  Rodapé Pag inicial
 ===========================================================*/
-
+footer{
+    padding: 1vw 1vw 1vw 1vw;
+    margin: 0 0 0 0;
+    display: flex;
+}
+footer img{
+    border: none;
+    margin: 0 0 0 0vw;
+}
+footer ul{
+    display: flex;
+    margin-left: 25vw;
+}
+footer ul li{
+    margin: 0 1vw 0 1vw;
+    
+}
+footer:hover{
+    
+    color: white;
+    margin: 0 0 0 0;
+    transition: 1s;}
 
 
 
