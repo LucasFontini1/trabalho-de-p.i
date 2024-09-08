@@ -23,14 +23,28 @@ function vcJaEstaAquiTres(){
   function restoForm(){
       
     
+if (idade.value !== '' && nome.value !== '' ) {
 
     if(idade.value >= 18){
-      boasVindas.innerHTML = `ola ${nomeValue}, obrigado por estar disposto a nos ajudar`
-   
+      boasVindas.innerHTML = `ola ${nome.value}, obrigado por estar disposto a nos ajudar, para prosseguir acesse o link abaixo`
+      esseLink.innerHTML = `Clique Aqui`
 
-      document.getElementById("hide").style.display = flex
+      
+    }else if(idade.value > 80){
+      boasVindas.innerHTML = `Infelizmente você não pode prosseguir tendo mais de 80 anos!`
     }else{
-      boasVindas.innerHTML = `ola infelismente você não pode nos ajudar, sendo menor de idade`
+      boasVindas.innerHTML = `ola ${nome.value}, infelismente você não pode nos ajudar, sendo menor de idade`
     }
+  }else{
+    boasVindas.innerHTML = `Preencha os campos`
   }
+  }
+  //  FORM DOIS
+const tel = document.getElementById('telefone')
+const email = document.getElementById('email')
+const emailValue = email.value
+const telValue = tel.value
+
+
+
   

@@ -335,7 +335,7 @@ main.mainProjetos{
 .quests:hover{
     background-color: #0093c4;
     transition: 1s;
-    color: #fff;
+    color: #fff;    
 }
 .enviar{
     font-size: 2rem;
@@ -358,7 +358,55 @@ main.mainProjetos{
     font-family: "comfortaa";
     color: black;
 }
-.hide{
-    display: none;
+#linkabaixo{
+    text-align: center;
+    margin: 5vw auto;
+    font-size: 1.5rem;
+    font-family: "comfortaa";
+    color: blue;
+    text-decoration: underline;
+    align-items: center;
+    justify-content: center;
+}
+.centralizador{
+    text-align: center;
+}
+.formDois{
+    text-align: center;
+    font-size: 2rem;
+    font-family: "comfortaa";
+}
+.enviarFormDois{
+    font-size: 2rem;
+    background-color: #910033;
+    color: #fff;
+    border: black 2px solid;
+    border-radius: 5px;
+    font-family: "comfortaa";
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    margin: 5vw 0;
     
+}
+.enviarFormDois:hover{
+    background-color: #5e0021;
+    transition: 1s;
+}
+#infoRecebidas{
+    text-align: center;
+    margin: 5vw 0;
+    font-size: 2rem;
+    font-family: "comfortaa";
+    color: black;
+}
+form{
+    align-items: center;
+    text-align: center;
+}
+.formularioGoogle{
+    margin: 5vw 0 0 27vw;
+    justify-content: center;
+    align-items: center;
+
 }
