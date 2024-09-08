@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Como nos ajudar? </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="topo">
+            <div class="logomaistitulo">
+                <p>
+                    Instituto Bobby Charlton
+                </p>
+            </div>
+            <nav class="naventrepaginas">
+                <ul>
+                    <a href="index.html">
+                        <li>
+                            inicio
+                        </li>
+                    </a>
+                    <a href="projetos.html">
+                        <li>
+                            nossos projetos
+                        </li>
+                    </a>
+                    <li id="homepage" onclick="vcJaEstaAquiTres()">
+                        como nos ajudar?
+                    </li>
+                    <li>
+                        participantes
+                    </li>
+
+                </ul>
+            </nav>
+        </div>
+        <h1>
+            Como <span class="bobby">nos</span> ajudar <span class="bobby">?</span>
+        </h1>
+    </header>
+    <main class="maincomonosajudar">
+
+        <p class="introducao-form">Para nos ajudar você deve responder esse questionario</p>
+        <div class="perguntas">
+
+            <form action="#" method="get">
+                <p>
+                    <label class="tittle-quests" for="nome">Nome*</label>
+                    <input type="text" id="nome">
+                </p>
+                <label class="tittle-quests" for="idade">Idade*</label>
+                <input type="number" id="idade">
+            </form>
+            <p>
+                <button class="enviar" onclick="restoForm()">
+                    Enviar
+                </button>
+            </p>
+        </div>
+
+        <div id="hide">
+            <p id="boasVindas"></p>
+            <label for="awd">awdsadw</label>
+            <input type="text">
+        </div>
+    </main>
+
+
+
+    <script src="codigo.js"></script>
+</body>
+
+</html>

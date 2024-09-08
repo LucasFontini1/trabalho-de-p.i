@@ -229,7 +229,7 @@ img{
 ===========================================================*/
 footer{
     padding: 1vw 1vw 1vw 1vw;
-    margin: 0 0 0 0;
+    margin: 5vw 0 0 0;
     display: flex;
 }
 footer img{
@@ -241,14 +241,10 @@ footer ul{
     margin-left: 25vw;
 }
 footer ul li{
-    margin: 0 1vw 0 1vw;
+    margin: 0vw 1vw 0 1vw;
     
 }
-footer:hover{
-    
-    color: white;
-    margin: 0 0 0 0;
-    transition: 1s;}
+
 
 
 
@@ -307,4 +303,62 @@ main.mainProjetos{
 }
 .fonte-img{
     margin: 3px 11vw 0 20vw;
+}
+
+/*======================================================
+    PAGE COMO NOS AJUDAR
+======================================================*/
+
+.perguntas{
+    
+    text-align: center;
+}
+
+.introducao-form{
+    text-align: center;
+    font-size: 2.3rem;
+    font-family: "comfortaa";
+}
+
+.tittle-quests{
+    color: #5e0021;
+    font-size: 2rem;
+    font-family: "comfortaa";
+    margin: 0 0 0 0vw;
+}
+.idade, .nome{
+    font-size: 2rem;
+    font-family: "comfortaa";
+    color: #5e0021;
+    padding: 5px;
+}
+.quests:hover{
+    background-color: #0093c4;
+    transition: 1s;
+    color: #fff;
+}
+.enviar{
+    font-size: 2rem;
+    background-color: #910033;
+    color: #fff;
+    border: black 2px solid;
+    border-radius: 5px;
+    font-family: "comfortaa";
+    padding: 10px;
+    cursor: pointer;
+}
+.enviar:hover{
+    background-color: #5e0021;
+    transition: 1s;
+}
+#boasVindas{
+    text-align: center;
+    margin: 5vw 0;
+    font-size: 2rem;
+    font-family: "comfortaa";
+    color: black;
+}
+.hide{
+    display: none;
+    
 }

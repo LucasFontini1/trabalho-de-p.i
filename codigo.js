@@ -1,38 +1,36 @@
 function vcJaEstaAqui(){
-   const hmpg = document.getElementById("homepage").innerHTML = alert(`Você esta nessa pagina`)
+ alert(`Você esta nessa pagina`)
    homepage.innerHTML = (`Inicio`)
 }
 
-//CALCULADORA IMC
-/*const resultado = document.querySelector('#resultado')
-const altura = document.querySelector('#altura')
-const peso = document.querySelector('#peso')
-
-const calcIMC = () => {
-
-  if (altura.value !== '' && peso.value !== '') {
-    const imc = (peso.value / (altura.value * altura.value)).toFixed(2)
-    let classification = ''
-
-    if (imc < 18.5) {
-      classification = 'Abaixo do peso'
-    } else if (imc < 25) {
-      classification = 'Peso normal'
-    } else if (imc < 30) {
-      classification = 'Acima do peso'
-    } else if (imc < 35) {
-      classification = 'Obesidade Grau I'
-    } else if (imc < 41) {
-      classification = 'Obesidade Grau II'
-    } else {
-      classification = 'Obesidade Grau III'
-    }
-    
-    resultado.innerHTML = `IMC: ${imc} (${classification})`
-    
-  } else {
-    resultado.innerHTML = 'Preencha os campos'
+function vcJaEstaAquiDois(){
+alert(`Você esta nessa pagina`)
+  homepage.innerHTML = (`Nossos Projetos`)
+}
+function vcJaEstaAquiTres(){
+  alert(`Você esta nessa pagina`)
+    homepage.innerHTML = (`Como Nos Ajudar`)
   }
-}*/
 
-//END CALCULADORA IMC
+  //PAG Como nos ajudar
+  const idade = document.getElementById('idade')
+    const nome = document.getElementById('nome')
+    const idadeValue = idade.value
+    const nomeValue = nome.value
+
+
+
+  function restoForm(){
+      
+    
+
+    if(idade.value >= 18){
+      boasVindas.innerHTML = `ola ${nomeValue}, obrigado por estar disposto a nos ajudar`
+   
+
+      document.getElementById("hide").style.display = flex
+    }else{
+      boasVindas.innerHTML = `ola infelismente você não pode nos ajudar, sendo menor de idade`
+    }
+  }
+  
