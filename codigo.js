@@ -44,10 +44,7 @@ if (idade.value !== '' && nome.value !== '' ) {
   }
   }
   //  FORM DOIS
-const tel = document.getElementById('telefone')
-const email = document.getElementById('email')
-const emailValue = email.value
-const telValue = tel.value
+
 
 
 
