@@ -11,6 +11,10 @@ function vcJaEstaAquiTres(){
   alert(`Você esta nessa pagina`)
     homepage.innerHTML = (`Como Nos Ajudar`)
   }
+  function vcJaEstaAquiQuatro(){
+    alert(`Você esta nessa pagina`)
+      homepage.innerHTML = (`Participantes`)
+    }
 
   //PAG Como nos ajudar
   const idade = document.getElementById('idade')
