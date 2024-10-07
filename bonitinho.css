@@ -1,0 +1,430 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
+
+/*CSS Reset=======================================================================*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+/*Header=======================================================================*/
+
+header{
+    display: flex;
+    padding: 2vw 10vw 4vw 10vw;
+	margin-bottom: 2vw;
+	justify-content: space-between;    
+	font-family: "comfortaa";
+}
+header:hover{
+	background-color: #910033;
+	color: white	;
+	transition: 0.5s;
+}
+header a p{
+	padding: 15px;
+}
+header a p:hover{
+	background-color: #630023;
+	border-radius: 20vw;
+}
+
+header:hover a p{
+	color: white;
+	transition: 0.5s;
+}
+header:hover span{
+	background-color: white;
+	color: #910033;
+	transition: 0.5s;
+}
+header p span{
+    background-color: #910033;
+    padding: 10px;
+	margin: 0 1vw 0 0;
+	text-align: center;
+	border-radius: 20vw;
+	color: white;
+	font-family: "comfortaa";
+}
+header ul{
+	display: flex;
+}
+header ul li{
+	margin: 0 1vw 0 1vw;
+	padding: 15px;
+}
+header ul li:last-child{
+	margin-right: 0;
+}
+header ul li:first-child{
+	margin-left: 0;
+}
+header:hover ul li a{
+	color: white;
+	transition: 0.5s;
+}
+header ul li:hover{
+	background-color: #630023;
+	padding: 15px;
+	border-radius: 10vw;
+	cursor: pointer;
+}
+
+/*MAIN+================================================*/
+
+main{
+	padding: 5vw 20vw 0 20vw;
+}
+main h1{
+	text-align: center;
+	font-size: 5.3rem;
+	font-family: "comfortaa";
+	color: #0093c4;
+	border-bottom: solid #b1b1b1 2px;
+	padding-bottom: 2vw;
+}
+main h1 span{
+	color: #910033;
+}
+
+main h2{
+	text-align: center;
+	font-size: 2.5rem;
+	font-family: "comfortaa";
+	margin-top: 4vw;
+	
+}
+main p{
+	font-size: 1.7rem;
+	font-family: "roboto";
+	margin: 2vw;
+}
+main ul li img{
+	border: solid 2px black;
+}
+main ul li{
+	text-align: center;
+	cursor: pointer;
+}
+
+main ul li h2{
+	color: #910033;
+	padding: 2vw 0 2vw 0;
+}
+
+main ul li p{
+	font-size: 1.5rem;
+	margin: 2vw 0 ;
+	text-align: justify;
+	line-height: 1.7rem;
+}
+main ul li p:last-child{
+	border-bottom: 2px solid #b1b1b1;
+	padding-bottom: 2vw;
+}
+main ul li p.fonte{
+	text-align: center;
+	font-size: 1rem;
+	margin: 0;
+}
+
+main ul li label{
+	font-family: "comfortaa";
+	font-size: 1.7rem;
+	
+}
+main ul li input{
+	font-size: 1.7rem;
+	border-radius: 20vw;
+	margin: 1vw 0;
+}
+main ul li button{
+	border-radius: 20vw;
+	font-size: 1.7rem;
+	font-family: "comfortaa";
+	padding: 10px;
+	cursor: pointer;
+	
+}
+main ul li button:hover{
+	background-color: #b1b1b1;
+	transition: 0.5s;
+}
+
+#resultado{
+	text-align: center;
+	font-size: 2rem;
+	color: black;
+	font-family: "comfortaa";
+}
+
+main  a{
+	color: blue;
+	font-size: 1.7rem;
+	font-family: "comfortaa";
+	text-align: center;
+	margin-left: 6.5vw;
+	text-decoration: underline;
+	padding: 0 0 10vw 0	;
+}
+
+footer{
+    padding: 1vw 1vw 1vw 1vw;
+    margin: 5vw 0 0 0;
+    display: flex;
+}
+footer img{
+    border: none;
+    margin: 0 0 0 0vw;
+}
+footer ul{
+    display: flex;
+    margin-left: 25vw;
+}
+footer ul li{
+    margin: 0vw 1vw 0 1vw;
+    
+}
+
+/*COMO NOS AJUDAR ========================================================================================*/
+
+.perguntas{
+    
+    text-align: center;
+}
+
+.introducao-form{
+    text-align: center;
+    font-size: 2.3rem;
+    font-family: "comfortaa";
+}
+
+.tittle-quests{
+    color: #5e0021;
+    font-size: 2rem;
+    font-family: "comfortaa";
+    margin: 0 0 0 0vw;
+}
+#idade, #nome{
+    font-size: 2rem;
+    font-family: "comfortaa";
+    color: #5e0021;
+    padding: 5px;
+	border-radius: 20vw;
+}
+.quests:hover{
+    background-color: #0093c4;
+    transition: 1s;
+    color: #fff;    
+}
+.enviar{
+    font-size: 2rem;
+    background-color: #910033;
+    color: #fff;
+    border: black 2px solid;
+    border-radius: 5px;
+    font-family: "comfortaa";
+    padding: 10px;
+    cursor: pointer;
+}
+.enviar:hover{
+    background-color: #5e0021;
+    transition: 1s;
+}
+#boasVindas{
+    text-align: center;
+    margin: 5vw 0;
+    font-size: 2rem;
+    font-family: "comfortaa";
+    color: black;
+}
+#linkabaixo{
+    text-align: center;
+    margin: 5vw auto;
+    font-size: 1.5rem;
+    font-family: "comfortaa";
+    color: blue;
+    text-decoration: underline;
+    align-items: center;
+    justify-content: center;
+}
+.centralizador{
+    text-align: center;
+}
+.formDois{
+    text-align: center;
+    font-size: 2rem;
+    font-family: "comfortaa";
+}
+.enviarFormDois{
+    font-size: 2rem;
+    background-color: #910033;
+    color: #fff;
+    border: black 2px solid;
+    border-radius: 5px;
+    font-family: "comfortaa";
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    margin: 5vw 0;
+    
+}
+.enviarFormDois:hover{
+    background-color: #5e0021;
+    transition: 1s;
+}
+#infoRecebidas{
+    text-align: center;
+    margin: 5vw 0;
+    font-size: 2rem;
+    font-family: "comfortaa";
+    color: black;
+}
+form{
+    align-items: center;
+    text-align: center;
+}
+.formularioGoogle{
+    margin: 5vw 0 0 27vw;
+    justify-content: center;
+    align-items: center;
+
+}
+.referencia{
+    margin: 15vw 50vw 2vw 0;
+    font-size: 10px;
+}
+.referencia p{
+    margin-top: 1vw;
+}
+.tittle-ref{
+    font-size: 1.1rem;
+}
+a.linkHmPageDois{
+    font-size: 1.5rem;
+    font-family: "comfortaa";
+    color: blue;
+    text-decoration: underline;
+    text-align: center;
+    justify-content: center;
+}
+.linkCentral{
+    text-align: center;
+    margin-top: 5vw;
+}
+
+/*PAGE PROJETOS==================================================================*/
+
+
+main  p.tittle-projeto{
+	text-align: center;
+}
+
+main p#OBJ-projeto{
+	font-family: sans-serif;
+	border-bottom: #b1b1b1 solid 2px;
+	padding-bottom: 1vw;
+	margin-bottom: 4vw;
+}
+main section.projetos{
+	margin: 8vw 0 0 0;
+}
+main section.projetos div{
+	display: flex;
+	justify-content: center;
+}
+main section.projetos div h1{
+	margin-top: 1.6vw;
+	padding: 0;
+}
+main section.projetos div img{
+	border: solid #b1b1b1 1px;
+	border-radius: 2vw;
+	margin-left: 1vw;
+}
+main section.projetos strong{
+	font-weight: bold;
+}
+main section.projetos p{
+	font-size: 1.8rem;
+	margin: 2vw 0 ;
+	text-align: justify;
+	line-height: 2rem;
+	margin: 3vw 10vw 0 10vw;
+	border: #b1b1b1 solid 2px;
+	border-radius: 2vw;
+	padding: 1vw;
+	border-top: white;
+}
+
+/*PG Participantes=========================================================*/
+
+main section.participantes{
+	justify-content: center;
+	margin-top: 15vw;
+	border: solid 2px #b1b1b1;
+	border-top: none;
+	border-radius: 2vw;
+}
+main section.participantes h3{
+	text-align: center;
+	margin: 7vw 0 0 0;
+	font-size: 3rem;
+	font-family: "comfortaa";
+}
+main section.participantes p.img{
+	text-align: center;
+}
+main section.participantes p{
+	text-align: justify;
+}
