@@ -432,3 +432,44 @@ main section.participantes p{
 .volte{
 	text-align: center;
 }
+
+/*FORM DOIS================================================================*/
+main section#form{
+	margin-top: 7vw;
+	
+}
+main section#form label{
+	font-size: 2rem;
+	font-family: "comfortaa";
+}
+main section#form input{
+	font-size: 2rem;
+	font-family: "comfortaa";
+	border-radius: 20vw;
+	border: #5e0021 solid 2px;
+	margin-bottom: 1vw;
+}
+main section#form input:hover{
+	background-color: #ffebf2;
+	transition: 0.5s;
+}
+textarea{
+	font-size: 2rem;
+	border: #5e0021 solid 2px;
+}
+textarea:hover{
+	background-color: #ffebf2;
+	transition: 0.5s;
+}
+main section#form button{
+	font-size: 2rem;
+	border-radius: 20vw;
+	border: solid 2px #5e0021;
+	background-color: white;
+	padding: 10px ;
+	cursor: pointer;
+}
+main section#form button:hover{
+	background-color: #ffebf2;
+	transition: 0.5s;
+}
