@@ -34,10 +34,10 @@ function vcJaEstaAqui(){
          esseLink.innerHTML = `Clique Aqui`
    
          
-       }else if(idade.value > 80){
+       }else if(idade.value > 125){
          boasVindas.innerHTML = `Infelizmente você não pode prosseguir tendo mais de 80 anos!`;
        }else{
-         boasVindas.innerHTML = `ola ${nome.value}, infelismente você não pode nos ajudar, sendo menor de idade`;
+         boasVindas.innerHTML = `ola ${nome.value}, infelizmente você não pode nos ajudar, sendo menor de idade`;
        }
      }else{
        boasVindas.innerHTML = `Preencha os campos`;
