@@ -208,7 +208,14 @@ main ul.main li.estiloDois h2{
 main ul.main li.estiloDois p.um{
 	background-color: white;
 	color: black;
-	margin-top: 3vw;
+	
+main ul li input{
+	font-size: 1.7rem;
+	border-radius: 20vw;
+	margin: 1vw 0;
+	color: rebeccapurple;
+}
+main ul li button{
 }
 main ul.main li.estiloDois p.dois{
 	background-color: white;
@@ -334,15 +341,6 @@ footer img{
     border: none;
     margin: 0 0 0 0vw;
 }
-footer ul{
-    display: flex;
-    margin-left: 10vw;
-}
-footer ul li{
-    margin: 0vw 1vw 0 1vw;
-    
-}
-
 /*COMO NOS AJUDAR ========================================================================================*/
 
 .perguntas{
@@ -612,5 +610,4 @@ main ul li.sub-li p{
 	font-size: 1.1rem;
 	font-family: sans-serif;
 	text-align: justify;
-
 }
