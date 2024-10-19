@@ -121,7 +121,6 @@ header ul li:hover{
 }
 
 /*MAIN+================================================*/
-
 main{
 	padding: 5vw 0vw 0 0vw;
 }
@@ -159,61 +158,107 @@ main ul li img{
 main ul.main li{
 	text-align: center;
 	cursor: default;
-	background-color: rebeccapurple;
+	background-color: white;
 	margin: 0 2vw;
 	border-radius: 2vw ;
 	padding: 2vw;
 	margin-bottom: 2vw;
 }
 
-main ul.main li.secundario{
+main ul.main li.estiloUm{
 	text-align: center;
 	cursor: default;
-	background-color: blueviolet;
-	margin: 0 2vw;
+	background-color: white;
+	margin: 0vw 2vw;
 	border-radius: 2vw ;
 	padding: 2vw;
 	margin-bottom: 2vw;
 }
+main ul.main li.estiloUm h2{
+	color: rebeccapurple;
+}
+main ul.main li.estiloUm p.um{
+	background-color: white;
+	color: black;
+
+}
+main ul.main li.estiloUm p.dois{
+	background-color: white;
+	color: black;
+}
+main ul.main li.estiloUm p.tres{
+	background-color: white;
+	color: black;
+}
+
+
+
+main ul.main li.estiloDois{
+	text-align: center;
+	cursor: default;
+	background-color: white;
+	margin: 0vw 2vw;
+	border-radius: 2vw ;
+	padding: 2vw 9vw;
+	margin-bottom: 2vw;
+}
+main ul.main li.estiloDois h2{
+	color: rebeccapurple;
+}
+main ul.main li.estiloDois p.um{
+	background-color: white;
+	color: black;
+	margin-top: 3vw;
+}
+main ul.main li.estiloDois p.dois{
+	background-color: white;
+	color: black;
+}
+main ul.main li.estiloDois p.tres{
+	background-color: white;
+	color: black;
+	margin: 0;
+}
+
+
+
+
 main ul.main li p.um{
-	color: white;
-	font-family:  sans-serif;
-	text-align: justify;
-	margin-right: 2vw;
-	background-color: indigo;
-	border: solid white 1px;
-	padding: 1vw;
-	border-radius: 2vw;
-	font-size: 1.2rem;
+	margin: 0vw 0 1vw 1vw;
+	font-size: 1.3rem;
+	font-family: sans-serif;
 	line-height: 1.3rem;
+	text-align: justify;
+
 }
 main ul.main li p.dois{
-	color: white;
+	color: black;
 	font-family: sans-serif;
 	text-align: justify;
-	background-color: indigo;
+	background-color: white;
 	border: solid white 1px;
-	padding: 1vw;
+	padding: 0vw;
 	border-radius: 2vw;
-	font-size: 1.1rem;
+	font-size: 1.3rem;
 	line-height: 1.3rem;
+	margin: 0 0 0 1vw;
 }
 main ul.main li p.tres{
-	color: white;
+	color: black;
 	font-family: sans-serif;
 	text-align: justify;
-	background-color: indigo;
+	background-color: white;
 	border: solid white 1px;
 	padding: 1vw;
 	border-radius: 2vw;
-	font-size: 1.1rem;
+	font-size: 1.3rem;
 	line-height: 1.3rem;
 	margin: 0 15vw;
 	display: flex;
 	justify-content: center;
 }
 main ul li h2{
-	color: mistyrose;
+	color: rebeccapurple;
 	padding: 2vw 0 2vw 0;
 }
 
@@ -222,15 +267,16 @@ main ul li p.fonte{
 	text-align: center;
 	font-size: 1rem;
 	margin: 0;
-	color: white;
+	color: black;
 }
 
 main ul li div.meca-imc{
-	background-color: indigo;
-	padding:0 0 2vw 0 ;
-	border: solid 1px white;
+	background-color: white;
+	padding:2vw ;
+	border: solid 1px rebeccapurple;
 	border-radius: 2vw;
-	margin: 0 20vw;
+	margin: 0 5vw 0 0vw;
+
 }
 main ul li div img.estilo{
 	border: none;
@@ -239,13 +285,13 @@ main ul li div img.estilo{
 main ul li label{
 	font-family: "comfortaa";
 	font-size: 1.7rem;
-	color: white;
+	color: rebeccapurple;
 }
 main ul li input{
 	font-size: 1.7rem;
 	border-radius: 20vw;
 	margin: 1vw 0;
-	color: white;
+	color: rebeccapurple;
 }
 main ul li button{
 	border-radius: 20vw;
@@ -261,9 +307,10 @@ main ul li button:hover{
 }
 
 #resultado{
+	margin-top: 2vw;
 	text-align: center;
 	font-size: 2rem;
-	color: white;
+	color: rebeccapurple;
 	font-family: "comfortaa";
 }
 
@@ -281,6 +328,7 @@ footer{
     padding: 1vw 1vw 1vw 1vw;
     margin: 5vw 0 0 0;
     display: flex;
+	justify-content: center;
 }
 footer img{
     border: none;
@@ -288,7 +336,7 @@ footer img{
 }
 footer ul{
     display: flex;
-    margin-left: 25vw;
+    margin-left: 10vw;
 }
 footer ul li{
     margin: 0vw 1vw 0 1vw;
@@ -424,6 +472,9 @@ a.linkHmPageDois{
 
 /*PAGE PROJETOS==================================================================*/
 
+body.proje main{
+	padding: 0 20vw;
+}
 
 main  p.tittle-projeto{
 	text-align: center;
@@ -431,10 +482,11 @@ main  p.tittle-projeto{
 
 main p#OBJ-projeto{
 	font-family: sans-serif;
-	border-bottom: #b1b1b1 solid 2px;
+
 	padding-bottom: 1vw;
 	margin-bottom: 4vw;
 }
+
 main section.projetos{
 	margin: 8vw 0 0 0;
 }
@@ -474,6 +526,7 @@ main section.participantes{
 	border: solid 2px #b1b1b1;
 	border-top: none;
 	border-radius: 2vw;
+	margin: 0 19vw;
 }
 main section.participantes h3{
 	text-align: center;
@@ -486,6 +539,9 @@ main section.participantes p.img{
 }
 main section.participantes p{
 	text-align: justify;
+	text-align: center;
+	font-size: 1.5rem;
+	padding: 1vw;
 }
 
 .volte{
@@ -496,6 +552,12 @@ main section.participantes p{
 main section#form{
 	margin-top: 7vw;
 	
+}
+section#form p:first-child{
+	margin-top: 5vw;
+}
+section#form p{
+	margin-bottom: 1vw;
 }
 main section#form label{
 	font-size: 2rem;
@@ -535,19 +597,20 @@ main section#form button:hover{
 
 /*hmpgDois*/
 
-main ul li.sub-li{
+main ul li.sub-li {
 	margin: 0 0.2vw;
-	background-color: indigo;
+	border: 1px black solid;
 }
 main ul li.sub-li h2{
 	font-size: 1.3rem;
 	padding: 0;
 	margin: 0;
+
 }
 
 main ul li.sub-li p{
 	font-size: 1.1rem;
 	font-family: sans-serif;
 	text-align: justify;
-	color: white;
+
 }
