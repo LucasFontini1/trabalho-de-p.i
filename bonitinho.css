@@ -159,7 +159,8 @@ main ul.main li{
 	text-align: center;
 	cursor: default;
 	background-color: white;
-	margin: 0 2vw;
+	margin: 0 2vw;￼
+	Fortalecimento
 	border-radius: 2vw ;
 	padding: 2vw;
 	margin-bottom: 2vw;
@@ -192,7 +193,8 @@ main ul.main li.estiloUm p.tres{
 }
 
 
-
+￼
+Fortalecimento
 main ul.main li.estiloDois{
 	text-align: center;
 	cursor: default;
@@ -208,16 +210,10 @@ main ul.main li.estiloDois h2{
 main ul.main li.estiloDois p.um{
 	background-color: white;
 	color: black;
-	
-main ul li input{
-	font-size: 1.7rem;
-	border-radius: 20vw;
-	margin: 1vw 0;
-	color: rebeccapurple;
+	margin-top: 3vw;
 }
-main ul li button{
-}
-main ul.main li.estiloDois p.dois{
+main ul.main li.estiloDois p.doi￼
+Fortalecimentos{
 	background-color: white;
 	color: black;
 }
@@ -336,11 +332,22 @@ footer{
     margin: 5vw 0 0 0;
     display: flex;
 	justify-content: center;
+	background-color: slateblue;
+	color: white;
 }
 footer img{
     border: none;
     margin: 0 0 0 0vw;
 }
+footer ul{
+    display: flex;
+    margin-left: 10vw;
+}
+footer ul li{
+    margin: 0vw 1vw 0 1vw;
+    
+}
+
 /*COMO NOS AJUDAR ========================================================================================*/
 
 .perguntas{
@@ -471,7 +478,7 @@ a.linkHmPageDois{
 /*PAGE PROJETOS==================================================================*/
 
 body.proje main{
-	padding: 0 20vw;
+	margin: 0 20vw;
 }
 
 main  p.tittle-projeto{
@@ -480,7 +487,7 @@ main  p.tittle-projeto{
 
 main p#OBJ-projeto{
 	font-family: sans-serif;
-
+	border-bottom: #b1b1b1 solid 2px;
 	padding-bottom: 1vw;
 	margin-bottom: 4vw;
 }
@@ -610,4 +617,5 @@ main ul li.sub-li p{
 	font-size: 1.1rem;
 	font-family: sans-serif;
 	text-align: justify;
+
 }

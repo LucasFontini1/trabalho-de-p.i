@@ -5,7 +5,7 @@
   
   const calcIMC = () => {
   
-    if (altura.value !== '' && peso.value !== '') {
+    if (altura.value !== '' && peso.value !== '' && altura.value <= 2.5 && altura.value >= 1.2 && peso.value <= 300 && peso.value >= 30) {
       const imc = (peso.value / (altura.value * altura.value)).toFixed(2)
       let classification = ''
   
@@ -25,7 +25,7 @@
       
       resultado.innerHTML = `IMC: ${imc} (${classification})`
     } else {
-      resultado.innerHTML = 'Preencha os campos'
+      resultado.innerHTML = 'Informações não validadas'
     }
   }
      
