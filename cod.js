@@ -52,6 +52,34 @@ function vcJaEstaAqui(){
      function send(){
       
      }
+
+     // BANCO DE FRUTAS
+     const frutas = [
+      "Banana",
+      "Laranja",
+      "Limão",
+      "Maçã",
+      "Mamão",
+      "Abacaxi",
+      "Melancia",
+      "Melão",
+      "Tangerina/Mexerica",
+      "Coco Verde",
+      "Pera",
+      "Abacate",
+      "Goiaba",
+      "Ameixa nacional",
+      "Caqui",
+      "Uva comum"
+  ];
+
+
+  const precoFruta = document.getElementById("priceFruit");
+
+  if(precoFruta.value <= 10){
+    document.getElementById('result-fruits').innerHTML = (`<p>adsawdsadw</p>`)
+  }
+  
  
    
    

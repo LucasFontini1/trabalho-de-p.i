@@ -232,7 +232,7 @@ main ul.main li p.um{
 	font-family: sans-serif;
 	line-height: 1.3rem;
 	text-align: justify;
-
+	
 }
 main ul.main li p.dois{
 	color: black;
@@ -618,4 +618,17 @@ main ul li.sub-li p{
 	font-family: sans-serif;
 	text-align: justify;
 
+}
+
+
+
+
+
+#Ffresca{
+	text-align: center;
+}
+#fFresca{
+	height: 15vw;
+	width: 20vw;
+	text-align: center;
 }
