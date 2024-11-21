@@ -29,15 +29,14 @@ function vcJaEstaAqui(){
        
    if (idade.value !== '' && nome.value !== '' ) {
    
-       if(idade.value >= 18){
+       if(idade.value >= 18 && idade.value<=100){
          boasVindas.innerHTML = `ola ${nome.value}, obrigado por estar disposto a nos ajudar, para prosseguir acesse o link abaixo`;
          esseLink.innerHTML = `Clique Aqui`
    
          
-       }else if(idade.value > 125){
-         boasVindas.innerHTML = `Infelizmente você não pode prosseguir tendo mais de 80 anos!`;
+
        }else{
-         boasVindas.innerHTML = `ola ${nome.value}, infelizmente você não pode nos ajudar, sendo menor de idade`;
+         boasVindas.innerHTML = `ola ${nome.value}, infelizmente você não pode nos ajudar, pois não atingiu o requisito minimo de idade!`;
        }
      }else{
        boasVindas.innerHTML = `Preencha os campos`;

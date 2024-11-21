@@ -148,7 +148,20 @@
             `)
             
     }else{
-        alert('Estamos terminando a aba"')
+        document.getElementById('result-fruits').innerHTML = (`
+        
+
+      <h1 style="border: none;
+            font-size: 2vw;
+            margin-bottom: 2vw;">
+                Opções de frutas nessa faixa de preço
+            </h1>
+            <p>
+               ${frutas.join("<br>")} <br>
+                ${frutasCaras.join("<br>")} <br> 
+                      
+                <button  onclick="limpa()" id="lim">Limpar</button>
+            </p> `)
     }
     }else{
         document.getElementById('result-fruits').innerHTML = `<p style="border:none; background-color:#fff; color:#000;">Coloque um valor valido</p>`
