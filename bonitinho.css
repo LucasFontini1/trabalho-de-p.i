@@ -126,7 +126,7 @@ main{
 }
 main h1{
 	text-align: center;
-	font-size: 5.3rem;
+	font-size: 5vw;
 	font-family: "comfortaa";
 	color: rebeccapurple;
 	border-bottom: solid #b1b1b1 2px;
@@ -139,13 +139,13 @@ main h1 span{
 
 main h2{
 	text-align: center;
-	font-size: 2.5rem;
+	font-size: 2.2vw;
 	font-family: "comfortaa";
 	margin-top: 0vw;
 
 }
 main p.sub-tittle{
-	font-size: 1.7rem;
+	font-size: 1.4vw;
 	font-family: "roboto";
 	margin: 2vw;
 	padding: 0 18vw;
@@ -159,8 +159,7 @@ main ul.main li{
 	text-align: center;
 	cursor: default;
 	background-color: white;
-	margin: 0 2vw;￼
-	Fortalecimento
+	margin: 0 2vw;
 	border-radius: 2vw ;
 	padding: 2vw;
 	margin-bottom: 2vw;
@@ -228,9 +227,9 @@ main ul.main li.estiloDois p.tres{
 
 main ul.main li p.um{
 	margin: 0vw 0 1vw 1vw;
-	font-size: 1.3rem;
+	font-size: 1.1vw;
 	font-family: sans-serif;
-	line-height: 1.3rem;
+	line-height: 1.1vw;
 	text-align: justify;
 	
 }
@@ -242,8 +241,8 @@ main ul.main li p.dois{
 	border: solid white 1px;
 	padding: 0vw;
 	border-radius: 2vw;
-	font-size: 1.3rem;
-	line-height: 1.3rem;
+	font-size: 1.1vw;
+	line-height: 1.1vw;
 	margin: 0 0 0 1vw;
 }
 main ul.main li p.tres{
@@ -254,8 +253,8 @@ main ul.main li p.tres{
 	border: solid white 1px;
 	padding: 1vw;
 	border-radius: 2vw;
-	font-size: 1.3rem;
-	line-height: 1.3rem;
+	font-size: 1.1vw;
+	line-height: 1.1vw;
 	margin: 0 15vw;
 	display: flex;
 	justify-content: center;
@@ -268,7 +267,7 @@ main ul li h2{
 
 main ul li p.fonte{
 	text-align: center;
-	font-size: 1rem;
+	font-size: 1vw;
 	margin: 0;
 	color: black;
 }
@@ -287,18 +286,18 @@ main ul li div img.estilo{
 
 main ul li label{
 	font-family: "comfortaa";
-	font-size: 1.7rem;
+	font-size: 1.4vw;
 	color: rebeccapurple;
 }
 main ul li input{
-	font-size: 1.7rem;
+	font-size: 1.4vw;
 	border-radius: 20vw;
 	margin: 1vw 0;
 	color: rebeccapurple;
 }
 main ul li button{
 	border-radius: 20vw;
-	font-size: 1.7rem;
+	font-size: 1.4vw;
 	font-family: "comfortaa";
 	padding: 10px;
 	cursor: pointer;
@@ -312,14 +311,14 @@ main ul li button:hover{
 #resultado{
 	margin-top: 2vw;
 	text-align: center;
-	font-size: 2rem;
+	font-size: 1.7vw;
 	color: rebeccapurple;
 	font-family: "comfortaa";
 }
 
 main  a{
 	color: blue;
-	font-size: 1.7rem;
+	font-size: 1.4vw;
 	font-family: "comfortaa";
 	text-align: center;
 	margin-left: 6.5vw;
@@ -347,6 +346,10 @@ footer ul li{
     margin: 0vw 1vw 0 1vw;
     
 }
+footer img{
+	height: 1.4vw;
+	width: 1.4vw;
+}
 
 /*COMO NOS AJUDAR ========================================================================================*/
 
@@ -357,18 +360,18 @@ footer ul li{
 
 .introducao-form{
     text-align: center;
-    font-size: 2.3rem;
+    font-size: 2vw;
     font-family: "comfortaa";
 }
 
 .tittle-quests{
     color: #5e0021;
-    font-size: 2rem;
+    font-size: 1.4vw;
     font-family: "comfortaa";
     margin: 0 0 0 0vw;
 }
 #idade, #nome{
-    font-size: 2rem;
+    font-size: 1.7vw;
     font-family: "comfortaa";
     color: #5e0021;
     padding: 5px;
@@ -380,7 +383,7 @@ footer ul li{
     color: #fff;    
 }
 .enviar{
-    font-size: 2rem;
+    font-size: 1.7vw;
     background-color: #910033;
     color: #fff;
     border: black 2px solid;
@@ -396,14 +399,14 @@ footer ul li{
 #boasVindas{
     text-align: center;
     margin: 5vw 0;
-    font-size: 2rem;
+    font-size: 1.7vw;
     font-family: "comfortaa";
     color: black;
 }
 #linkabaixo{
     text-align: center;
     margin: 5vw auto;
-    font-size: 1.5rem;
+    font-size: 1.2vw;
     font-family: "comfortaa";
     color: blue;
     text-decoration: underline;
@@ -415,11 +418,11 @@ footer ul li{
 }
 .formDois{
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.7vw;
     font-family: "comfortaa";
 }
 .enviarFormDois{
-    font-size: 2rem;
+    font-size: 1.7vw;
     background-color: #910033;
     color: #fff;
     border: black 2px solid;
@@ -438,7 +441,7 @@ footer ul li{
 #infoRecebidas{
     text-align: center;
     margin: 5vw 0;
-    font-size: 2rem;
+    font-size: 1.7vw;
     font-family: "comfortaa";
     color: black;
 }
@@ -460,10 +463,10 @@ form{
     margin-top: 1vw;
 }
 .tittle-ref{
-    font-size: 1.1rem;
+    font-size: 1.1vw;
 }
 a.linkHmPageDois{
-    font-size: 1.5rem;
+    font-size: 1.2vw;
     font-family: "comfortaa";
     color: blue;
     text-decoration: underline;
@@ -512,10 +515,10 @@ main section.projetos strong{
 	font-weight: bold;
 }
 main section.projetos p{
-	font-size: 1.8rem;
+	font-size: 1.5vw;
 	margin: 2vw 0 ;
 	text-align: justify;
-	line-height: 2rem;
+	line-height: 1.7vw;
 	margin: 3vw 10vw 0 10vw;
 	border: #b1b1b1 solid 2px;
 	border-radius: 2vw;
@@ -536,7 +539,7 @@ main section.participantes{
 main section.participantes h3{
 	text-align: center;
 	margin: 7vw 0 0 0;
-	font-size: 3rem;
+	font-size: 2.7vw;
 	font-family: "comfortaa";
 }
 main section.participantes p.img{
@@ -545,7 +548,7 @@ main section.participantes p.img{
 main section.participantes p{
 	text-align: justify;
 	text-align: center;
-	font-size: 1.5rem;
+	font-size: 1.2vw;
 	padding: 1vw;
 }
 
@@ -565,11 +568,11 @@ section#form p{
 	margin-bottom: 1vw;
 }
 main section#form label{
-	font-size: 2rem;
+	font-size: 1.7vw;
 	font-family: "comfortaa";
 }
 main section#form input{
-	font-size: 2rem;
+	font-size: 1.7vw;
 	font-family: "comfortaa";
 	border-radius: 20vw;
 	border: #5e0021 solid 2px;
@@ -580,7 +583,7 @@ main section#form input:hover{
 	transition: 0.5s;
 }
 textarea{
-	font-size: 2rem;
+	font-size: 1.7vw;
 	border: #5e0021 solid 2px;
 }
 textarea:hover{
@@ -588,7 +591,7 @@ textarea:hover{
 	transition: 0.5s;
 }
 main section#form button{
-	font-size: 2rem;
+	font-size: 1.7vw;
 	border-radius: 20vw;
 	border: solid 2px #5e0021;
 	background-color: white;
@@ -607,14 +610,14 @@ main ul li.sub-li {
 	border: 1px black solid;
 }
 main ul li.sub-li h2{
-	font-size: 1.3rem;
+	font-size: 1.1vw;
 	padding: 0;
 	margin: 0;
 
 }
 
 main ul li.sub-li p{
-	font-size: 1.1rem;
+	font-size: 1.1vw;
 	font-family: sans-serif;
 	text-align: justify;
 
