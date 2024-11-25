@@ -116,57 +116,19 @@
 
     function calcFruta(){
     const precoFruta = document.getElementById("priceFruit");
-        
-    if(precoFruta.value <= 10){
-      document.getElementById('result-fruits').innerHTML = (`
-      <h1 style="border: none;
-            font-size: 2vw;
-            margin-bottom: 2vw;">
-                Opções de frutas nessa faixa de preço
-            </h1>
-            <p>
-                ${frutas.join("<br>")} <br>    
-                <button  onclick="limpa()" id="lim">Limpar</button>
-            </p>
-            
-            `)
-            
-    }
-    if(precoFruta.value !== ''){
-        if(precoFruta.value <= 10){
-      document.getElementById('result-fruits').innerHTML = (`
-      <h1 style="border: none;
-            font-size: 2vw;
-            margin-bottom: 2vw;">
-                Opções de frutas nessa faixa de preço
-            </h1>
-            <p>
-                ${frutas.join("<br>")} <br>    
-                <button  onclick="limpa()" id="lim">Limpar</button>
-            </p>
-            
-            `)
-            
-    }else{
-        document.getElementById('result-fruits').innerHTML = (`
-        
+        if (precoFruta.value !== '' && precoFruta.value>0){
+            if (precoFruta.value <5){
+                document.getElementById('result-fruits').innerHTML = "<h2>Dinheiro insuficiente</h2>"
+            }else if(precoFruta.value <= 10){
+                document.getElementById('result-fruits').innerHTML = `<p>${frutas.join("<br>")}<br> <button id="lim" onclick="limpa()">Limpar</button></p>`
 
-      <h1 style="border: none;
-            font-size: 2vw;
-            margin-bottom: 2vw;">
-                Opções de frutas nessa faixa de preço
-            </h1>
-            <p>
-               ${frutas.join("<br>")} <br>
-                ${frutasCaras.join("<br>")} <br> 
-                      
-                <button  onclick="limpa()" id="lim">Limpar</button>
-            </p> `)
+            }else if (precoFruta.value>10){
+                document.getElementById('result-fruits').innerHTML = `<p>${frutas.concat(frutasCaras).join("<br>")}<br> <button id="lim" onclick="limpa()">Limpar</button></p>`
+            }
+        }else{
+            document.getElementById('result-fruits').innerHTML = "<h2>Valor incorreto</h2>"
+        }
     }
-    }else{
-        document.getElementById('result-fruits').innerHTML = `<p style="border:none; background-color:#fff; color:#000;">Coloque um valor valido</p>`
-    }
-}
 
 
 

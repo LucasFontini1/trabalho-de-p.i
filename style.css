@@ -33,6 +33,12 @@ button{
     border-radius: 2vw ;
     padding: 0.5vw;
     cursor: pointer;
+    margin-top: 2vw;
+}
+
+#result-fruits h2{
+    font-size: 2vw;
+    
 }
 
 #result-fruits p{
